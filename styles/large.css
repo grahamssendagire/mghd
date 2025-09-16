@@ -1,0 +1,82 @@
+
+/** Large.css **/
+@media (min-width: 1130px){
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* .home-main{
+        display: grid;
+        grid-template-areas: "e h h x"
+                             "w h h x"
+                             "j n n x";
+    }     */
+
+
+
+    #hamburger-menu{
+        display: none;
+    }
+
+    nav ul li a{
+        padding: .5rem;
+        font-size: 1rem;
+    }    
+
+    nav ul{
+        position: static;
+        width: 95%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }    
+    .footer-logo {
+        max-width:100%
+    }
+    .main-hero{
+        grid-area: h;
+        position: relative;      
+        background-image: url('../images/home4.webp');    
+        background-position: center;
+        height: 600px;        
+    }
+
+    .discover-main img {
+        width: 800px;
+        height: auto;
+    }
+
+    section.join {
+        width: 1120px;
+        margin: 0 auto;
+    }
+
+    
+.card {  
+    background-color: white;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    margin-bottom: 1em;  
+    padding: 1em;  
+    width: 45%; /* Adjust as needed, consider screen size */  
+    box-sizing: border-box; /* Makes padding and border part of the element's total width */  
+}  
+
+.card h2 {  
+    margin-top: 0;  
+    color: #3498db; /* Blue heading */  
+}  
+
+.card h4 {  
+    margin-top: 0;  
+    color: #3498db; /* Blue heading */  
+}  
+.card img {  
+    max-width: 50%;  
+    height: auto;  
+    border-radius: 5px;  
+    margin-bottom: 1em;  
+} 
+}
+
